@@ -19,6 +19,6 @@ function reverseString(string) {
   }
 }
 
-function isPalindrome() {
-  
+function isPalindrome(string) {
+  if (string.length )
 }
