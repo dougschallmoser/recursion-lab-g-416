@@ -34,7 +34,7 @@ function addUpTo(array, index) {
 }
 
 function maxOf(array) {
-  if (array.lenth === 1) {
+  if (array.length === 1) {
     return array[0]
   } else {
     
