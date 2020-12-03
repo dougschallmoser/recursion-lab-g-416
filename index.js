@@ -41,12 +41,12 @@ function maxOf(array) {
   }
 }
 
-function includesNumber(myArray, myNumber) {
-  if (!myArray.length) {
+function includesNumber(array, myNumber) {
+  if (!array.length) {
     return false;
-  } else if (myArray[0] === myNumber) {
+  } else if (array[0] === myNumber) {
     return true;
   } else {
-    return includesNumber(myArray.slice(1), myNumber);
+    return includesNumber(array.slice(1), myNumber);
   }
 }
