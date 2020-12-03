@@ -11,15 +11,6 @@ function printString(string) {
   }
 }
 
-function reverseString(string) {
-  if (string.length > 0) {
-    let subString = string.substring(0, string.length - 1)
-    reverseString(subString)
-  } else {
-    return true
-  }
-}
-
 function reverseString(myString) {
   if (myString.length < 2) {
     return myString;
