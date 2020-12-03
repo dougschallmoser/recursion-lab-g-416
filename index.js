@@ -11,10 +11,10 @@ function printString(string) {
   }
 }
 
-function reverseString(myString) {
-  if (myString.length < 2) {
-    return myString;
+function reverseString(string) {
+  if (string.length < 2) {
+    return string;
   } else {
-    return reverseString(myString.substring(1)) + myString[0];
+    return reverseString(string.substring(1)) + string[0];
   }
 }
